@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Challenge-greydive/static/css/main.3be3fbbb.css",
+    "main.js": "/Challenge-greydive/static/js/main.0e0ae76d.js",
+    "index.html": "/Challenge-greydive/index.html",
+    "main.3be3fbbb.css.map": "/Challenge-greydive/static/css/main.3be3fbbb.css.map",
+    "main.0e0ae76d.js.map": "/Challenge-greydive/static/js/main.0e0ae76d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3be3fbbb.css",
+    "static/js/main.0e0ae76d.js"
+  ]
+}
