@@ -4,14 +4,10 @@ import { useNavigate } from "react-router-dom";
 import "./index.css";
 import { useState, useEffect } from "react";
 import {
-  getDoc,
   getFirestore,
   collection,
-  addDoc,
   getDocs,
-  doc,
-  deleteDoc,
-  setDoc,
+ 
 } from "firebase/firestore";
 
 const Lista = () => {

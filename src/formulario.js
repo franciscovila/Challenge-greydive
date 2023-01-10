@@ -11,7 +11,11 @@ import {
 } from "firebase/firestore";
 import { useState, useEffect } from "react";
 
-function App() {
+function Formulario() {
+
+  let navigate = useNavigate();
+
+  
   const guardarDatos = async (e) => {
     e.preventDefault();
     console.log({ ...user });
@@ -21,10 +25,11 @@ function App() {
       });
     } catch (error) {
       console.log(error);
-    }
+    } 
+    navigate("/submitSuccess")
   };
 
-  let navigate = useNavigate();
+  
 
   const handleNavigate = () => {
     navigate("/lista");
@@ -132,4 +137,4 @@ function App() {
   );
 }
 
-export default App;
+export default Formulario;
